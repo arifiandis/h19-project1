@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sinauo</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="responsive.css">
+  </head>
+  <body>
+
+<!-- Ini bagian kak Aissetiabudi ya -->
+
+    <div class="header">
+      <div class="header-logo">Sinauo</div>
+      <div class="header-list">
+        <ul>
+          <li>Home</li>
+          <li>Produk</li>
+          <li>Blog</li>
+          <li>Hubungi kami</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="main">
+
+<!-- Ini bagian kak Yanu ya -->
+
+      <div class="kembangkan">
+		<div class="container">
+			
+		</div>
+      </div>
+      
+<!-- Ini bagian Andis ya -->
+
+      <div class="aksesproduk">
+		<div class="container">
+			<div class="heading">
+				<h2>Bebas Akses Berbagai Produk</h2>
+				<p>Sekali mengikuti kelas Premium maka member mendapat banyak keuntungan lain</p>
+			</div>
+			<div class="produks">
+				<div class="produk">
+					<img src="#">
+					<p>WEB</p>
+					<p>Pelajari web dengan mudah karena dibimbing oleh instruktur berpengalaman.</p>
+					<a href="#" class="btn">View product</a>
+				</div>
+				<div class="produk">
+					<img src="#">
+					<p>DESAIN</p>
+					<p>Pelajari desain dengan mudah dengan panduan terstruktur dai konsep hingga produk.</p>
+					<a href="#" class="btn">View product</a>
+				</div>
+				<div class="produk">
+					<img src="#">
+					<p>VIDEOGRAFI</p>
+					<p>Pelajari videografi menjadi mudah dengan akses video lengkap dan pembelajaran yang sistematis.</p>
+					<a href="#" class="btn">View product</a>
+				</div>
+			</div>
+		</div>		
+      </div>
+      
+<!-- Ini bagian kak Aini ya -->
+
+      <div class="sinauococok">
+		<div class="container">
+			
+		</div>
+      </div>
+    </div>
+
+<!-- Ini bagian kak Andriaulia ya -->
+
+    <div class="footer">
+      <div class="footer-logo">Sinauo</div>
+      <div class="footer-list">
+        <ul>
+          <li>Tentang</li>
+        </ul>
+      </div>
+    </div>
+  </body>
+</html>
