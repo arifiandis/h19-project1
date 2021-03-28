@@ -27,11 +27,23 @@
 
 <!-- Ini bagian kak Yanu ya -->
 
-      <div class="kembangkan">
+	<div class="top-wrapper">
 		<div class="container">
-			
+			<div class=top>
+				<div class="kolom left">
+					<h1>Kembangkan Skill dan Karir Anda</h1>
+					<h2>Belajar 10x lebih cepat dengan praktisi handal</h2>
+					<div class="tombol">
+						<span class="btn daftar">Daftar Sekarang</span>
+					</div>
+				</div>
+				<div class="kolom right">
+					<img src="Homescreen1.png" class="image-top">
+				</div>
+				<div class="clear"></div>
+			</div>
 		</div>
-      </div>
+	</div>
       
 <!-- Ini bagian Andis ya -->
 
