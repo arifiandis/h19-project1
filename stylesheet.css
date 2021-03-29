@@ -1,0 +1,278 @@
+* {
+    box-sizing: border-box;
+}
+
+/* 
+----------------------------------------------------------------------
+Bagian kak aissetiabudi
+----------------------------------------------------------------------
+*/
+
+.header {
+  background-color: #f9ad81;
+  height: 65px;
+}
+.header-logo {
+  float: left;
+  width: 50px;
+  height: 50px;
+  margin: 5px;
+  padding-left: 20px;
+}
+.header-text {
+  float: left;
+  font-size: 40px;
+  font-family: viga;
+  color: white;
+  margin: 5px;
+  padding-left: 10px;
+}
+.header-list {
+  float: right;
+  padding-right: 20px;
+}
+
+.header li {
+  list-style: none;
+  float: left;
+  font-family: tahoma;
+  font-size: 18px;
+  color: white;
+  margin: 5px;
+  padding-left: 50px;
+}
+.header-list .tombol {
+  background-color: #bd8cbf;
+  border-radius: 10px;
+  float: right;
+  font-family: tahoma;
+  font-size: 18px;
+  color: white;
+  margin: 5px;
+  padding: 2px 20px;
+}
+
+.btn-login{
+    background-color: #bd8cbf;
+    padding: 10px 15px;
+    cursor: pointer;
+    text-align: center;
+	cursor: pointer;
+	box-shadow: 2px 4px #5f5d60;
+	opacity: 0.9;
+	border-radius: 8px;
+}
+
+.btn-login:hover {
+  opacity: 1;
+}
+
+.btn-login:active {
+	position: relative;
+	top: 7px;
+	box-shadow: none;
+}
+
+/* 
+----------------------------------------------------------------------
+Bagian kak Yanu
+----------------------------------------------------------------------
+*/
+
+body {
+    margin: 0;
+    font-family: "Arial";
+}
+
+.container {
+    max-width: 1170px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.clear {
+    clear: left;
+}
+
+.top-wrapper {
+    height: 400px;
+    background-color: white;
+}
+
+.kolom {
+    float: left;
+    width: 50%;
+}
+
+.left h1 {
+    color: #f9ad81;
+    font-size: 50px;
+    margin: 20px 0 0 10px;
+}
+
+.left h2 {
+    color: #999999;
+    margin: 20px 0 20px 10px;
+}
+
+.tombol {
+    text-align: center;
+}
+
+.btn {
+    color: white;
+    font-weight: bold;
+    display: inline-block;
+    opacity: 1;
+    border-radius: 15px;
+}
+
+.daftar {
+    background-color: #bd8cbf;
+    padding: 10px 15px;
+    cursor: pointer;
+    text-align: center;
+	cursor: pointer;
+	box-shadow: 4px 7px #5f5d60;
+}
+
+.daftar:hover {
+  opacity: 1;
+}
+
+.daftar:active {
+	position: relative;
+	top: 7px;
+	box-shadow: none;
+}
+
+.image-top {
+    width: 500px;
+    height: auto;
+}
+
+/* 
+----------------------------------------------------------------------
+Bagian Andis
+----------------------------------------------------------------------
+*/
+
+.mid-wrapper {
+  padding-bottom: 80px;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: #f7f7f7;
+  text-align: center;
+}
+
+.mid-wrapper h2 {
+	color: #999999;
+}
+
+.heading {
+  padding-top: 40px;
+  padding-bottom: 50px;
+  color: #5f5d60;
+}
+
+.heading h2 {
+  font-weight: normal;
+}
+  
+.produks {
+	display: flex;
+}
+
+.produk {
+	flex: auto;
+	width: 25%;
+}
+
+.produk p {
+	color: #999999;
+}
+
+.gambar {
+    width: 150px;
+    height: auto;
+}
+
+.btnp {
+	padding: 12px 24px;
+	color: white;
+	display: inline-block;
+	opacity: 0.8;
+	border-radius: 4px;
+	text-align: center;
+	background-color: #f9ad81;
+	cursor: pointer;
+	box-shadow: 4px 7px #5f5d60;
+}
+
+.btnp:hover {
+  opacity: 1;
+}
+
+.btnp:active {
+	position: relative;
+	top: 7px;
+	box-shadow: none;
+}
+
+/* 
+----------------------------------------------------------------------
+Bagian kak Andriaulia
+----------------------------------------------------------------------
+*/
+.footer-right li {
+    list-style: none;
+}
+
+footer {
+    background-color:rgb(235, 235, 235);
+    height: 250px;
+    font-family: tahoma;
+}
+
+.footer-logo {
+    width: 70px;
+    height: 70px;
+}
+
+.jargon p {
+    padding: 10px 0;
+}
+
+.footer-left {
+    width: 180px;
+    height: 100%;
+    float: left;
+    font-size: 13px;
+    padding-top: 30px;
+    padding-left: 70px;
+    color: #999999;
+}
+
+.footer-right {
+    color: #999999;
+    font-size: 13px;
+    width: 30%;
+    float: right;
+    padding-top: 30px;
+    padding-right: 80px;
+    line-height: 20px
+    
+}
+
+.tengah {
+    float: left;
+}
+
+.pinggir {
+    float: right;
+}
+
+.footer-right a {
+    color: #999999;
+    text-decoration: none;
+}
