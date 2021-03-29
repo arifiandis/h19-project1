@@ -1,8 +1,7 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sinauo</title>
     <link rel="stylesheet" href="stylesheet.css">
     <link rel="stylesheet" href="responsive.css">
@@ -10,92 +9,131 @@
     <link href="https://fonts.googleapis.com/css2?family=Viga&display=swap" rel="stylesheet" />
   </head>
   <body>
-
-<!-- Ini bagian kak Aissetiabudi ya -->
-
     <div class="header">
-      <div class="header-logo">Sinauo</div>
-      <div class="header-list">
-        <ul>
-          <li>Home</li>
-          <li>Produk</li>
-          <li>Blog</li>
-          <li>Hubungi kami</li>
-        </ul>
+        <img class="header-logo" src="img/ikon logo.PNG">
+        <div class="header-text">Sinauo</div>
+        <div class="header-list">
+            <ul>
+                <li>Home</li>
+                <li>Product</li>
+                <li>Blog</li>
+                <li>Hubungi Kami</li>
+                <li><span  class="btn-login" type="btn btn-primary">Login</span></li>
+            </ul>
+        </div>
+        </div>
+    </div>
+    <div class="top-wrapper">
+      <div class="container">
+        <div class=top>
+          <div class="kolom left">
+            <h1>Kembangkan Skill dan Karir Anda</h1>
+            <h2>Belajar 10x lebih cepat dengan praktisi handal</h2>
+            <div class="tombol">
+              <span class="btn daftar">Daftar Sekarang</span>
+            </div>
+          </div>
+          <div class="kolom right">
+            <img src="Homescreen1.png" class="image-top">
+          </div>
+          <div class="clear"></div>
+        </div>
       </div>
     </div>
+    <div class="mid-wrapper">
+      <div class="container">
+		<div class="heading">
+			<h2>Bebas Akses Berbagai Produk</h2>
+			<p>Sekali mengikuti kelas Premium maka member mendapat banyak keuntungan lain</p>
+		</div>
+		<div class="produks">
+			<div class="produk">
+				<img src="coding.png">
+				<p>WEB</p>
+				<p>Pelajari web dengan mudah karena dibimbing oleh instruktur berpengalaman.</p>
+				<span class="btnp">View product</span>
+			</div>
+			<div class="produk">
+				<img src="desain.png">
+				<p>DESAIN</p>
+				<p>Pelajari desain dengan mudah dengan panduan terstruktur dai konsep hingga produk.</p>
+				<span class="btnp">View product</span>
+			</div>
+			<div class="produk">
+				<img src="videografi.png">
+				<p>VIDEOGRAFI</p>
+				<p>Pelajari videografi menjadi mudah dengan akses video lengkap dan pembelajaran yang sistematis.</p>
+				<span class="btnp">View product</span>
+			</div>
+			<div class="produk">
+				<img src="marketing.png">
+				<p>INTERNET MARKETTING</p>
+				<p>Pelajari internet marketing menjadi lebih simple dengan adanya bantuan template aplikasi.</p>
+				<span class="btnp">View product</span>
+			</div>
+		</div>
+	  </div>
+    </div>
+    <div class="bottom-wrapper">
+      <div class="container"></div>
+    </div>
+    <footer>
+      <div class="footer-left">  
+            <img src="img/ikon logo.PNG" class="footer-logo">    
 
-    <div class="main">
+            <div class="jargon">
+                <p>Belajar materi coding, design, videografi semakin mudah dan asyik</p>
+            </div>
+      </div> 
 
-<!-- Ini bagian kak Yanu ya -->
-
-	<div class="top-wrapper">
-		<div class="container">
-			<div class=top>
-				<div class="kolom left">
-					<h1>Kembangkan Skill dan Karir Anda</h1>
-					<h2>Belajar 10x lebih cepat dengan praktisi handal</h2>
-					<div class="tombol">
-						<span class="btn daftar">Daftar Sekarang</span>
+      <div class="footer-right">
+            <div class="tengah">
+				<div class="Bantuan">
+					<div class="list ban">
+						<ul>
+							<li><strong>Bantuan</strong></li>
+							<li><a href="#">Cek Sertifikat</a></li>
+							<li><a href="#">Cara Order</a></li>
+							<li><a href="#">Kebijakan Privasi</a></li>
+						</ul>
 					</div>
 				</div>
-				<div class="kolom right">
-					<img src="Homescreen1.png" class="image-top">
-				</div>
-				<div class="clear"></div>
-			</div>
-		</div>
-	</div>
-      
-<!-- Ini bagian Andis ya -->
 
-      <div class="aksesproduk">
-		<div class="container">
-			<div class="heading">
-				<h2>Bebas Akses Berbagai Produk</h2>
-				<p>Sekali mengikuti kelas Premium maka member mendapat banyak keuntungan lain</p>
-			</div>
-			<div class="produks">
-				<div class="produk">
-					<img src="#">
-					<p>WEB</p>
-					<p>Pelajari web dengan mudah karena dibimbing oleh instruktur berpengalaman.</p>
-					<a href="#" class="btn">View product</a>
+				<div class="Office">
+					<div class="list off">
+						<ul>
+							<li><strong>Office</strong></li>
+							<li><a href="#">admin@sinauo.com</a></li>
+							<li><a href="#">Sidoarjo, Jawa Timur</a></li>
+						</ul>
+					</div>
 				</div>
-				<div class="produk">
-					<img src="#">
-					<p>DESAIN</p>
-					<p>Pelajari desain dengan mudah dengan panduan terstruktur dai konsep hingga produk.</p>
-					<a href="#" class="btn">View product</a>
+            </div>
+
+            <div class="pinggir">
+				<div class="Explore">
+					<div class="list exp">
+						<ul>
+							<li><strong>Explore</strong></li>
+							<li><a href="#">Biaya Belajar</a></li>
+							<li><a href="#">Donasi Bersama</a></li>
+							<li><a href="#">Contact Us</a></li>
+						</ul>
+					</div> 
 				</div>
-				<div class="produk">
-					<img src="#">
-					<p>VIDEOGRAFI</p>
-					<p>Pelajari videografi menjadi mudah dengan akses video lengkap dan pembelajaran yang sistematis.</p>
-					<a href="#" class="btn">View product</a>
+          
+				<div class="Social">
+					<div class="list soc">
+						<ul>
+							<li><strong>Social</strong></li>
+							<li><a href="#">Instagram</a></li>
+							<li><a href="#">Telegram</a></li>
+							<li><a href="#">Youtube</a></li>
+						</ul>
+					</div>
 				</div>
-			</div>
-		</div>		
+            </div>
       </div>
-      
-<!-- Ini bagian kak Aini ya -->
-
-      <div class="sinauococok">
-		<div class="container">
-			
-		</div>
-      </div>
-    </div>
-
-<!-- Ini bagian kak Andriaulia ya -->
-
-    <div class="footer">
-      <div class="footer-logo">Sinauo</div>
-      <div class="footer-list">
-        <ul>
-          <li>Tentang</li>
-        </ul>
-      </div>
-    </div>
+    </footer>
   </body>
 </html>
